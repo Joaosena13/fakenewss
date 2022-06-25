@@ -1,0 +1,122 @@
+.cabecalho {
+    background-color: #17a2b8;
+    color: white;
+    padding: 0px 20px;
+}
+.cabecalho a {
+    color: white;
+}
+.cabecalho button {
+    color: white;
+}
+.cabecalho div a {
+    margin-right: 8px;
+    
+}
+.cabecalho img{
+    width: 150px;
+}
+.rodape {
+    background-color: #17a2b8;
+    color: white;
+    text-align: center;
+}
+.rodape p {
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.barra {
+    flex: auto;
+}
+.titulo {
+    flex: auto;
+    text-align: center;
+    color: #17a3b881;
+}
+.container {
+    margin: auto;
+    padding: auto;
+}
+.formul {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    min-height:  calc(100vh - 110px);;
+}
+
+main{
+    min-height: calc(100vh - 110px);
+}
+body{
+    height: 100vh;
+}
+
+
+/*
+@media screen and (min-height: 0px) and (max-height:600px){
+    .formul {
+        min-height: 81.6vh;
+    }
+}
+
+@media screen and (min-height: 601px) and (max-height:654px){
+    .formul {
+        min-height: 83.4vh;
+    }
+}
+
+@media screen and (min-height: 655px) and (max-height:668px){
+    .formul {
+        min-height: 83.5vh;
+    }
+}
+
+@media screen and (min-height: 669px) and (max-height:740px){
+    .formul {
+        min-height: 85.2vh;
+    }
+}
+
+@media screen and (min-height: 741px) and (max-height:844px){
+    .formul {
+        min-height: 87.1vh;
+    }
+}
+
+@media screen and (min-height: 845px) and (max-height:852px){
+    .formul {
+        min-height: 87vh;
+    }
+}
+
+@media screen and (min-height: 853px) and (max-height:896px){
+    .formul {
+        min-height: 87.7vh;
+    }
+}
+
+@media screen and (min-height: 896px) and (max-height:916px){
+    .formul {
+        min-height: 88vh;
+    }
+}
+
+@media screen and (min-height: 917px) and (max-height:1024px){
+    .formul {
+        min-height: 89.3vh;
+    }
+}
+
+@media screen and (min-height: 1025px) and (max-height:1180px){
+    .formul {
+        min-height: 90.8vh;
+    }
+}
+
+@media screen and (min-height: 1181px) and (max-height:1368px){
+    .formul {
+        min-height: 92vh;
+    }
+}

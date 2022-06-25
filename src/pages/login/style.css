@@ -1,0 +1,130 @@
+
+
+main{
+    min-height: calc(100vh - 110px);
+}
+body{
+    height: 100vh;
+}
+.responsividade{
+    min-height:  calc(100vh - 110px);;
+}
+
+
+
+/*------CABEÇALHO-------*/
+.cabecalho {
+    background-color: #17a2b8;
+    color: white;
+    padding: 0px 20px;
+}
+.cabecalho a {
+    color: white;
+}
+.cabecalho button {
+    color: white;
+}
+.cabecalho div a {
+    margin-right: 8px;
+}
+.cabecalho img{
+    width: 150px;
+  }
+/*------CABEÇALHO-------*/
+
+/*------RODAPÉ-------*/
+.rodape {
+    background-color: #17a2b8;
+    color: white;
+    text-align: center;
+}
+.rodape p {
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*------RODAPÉ-------*/
+
+.cadastro{
+    background-color: white;
+    text-align: center;
+}
+.entrar{
+    background-color: #17a3b880;
+    text-align: center;
+    align-items: center;
+}
+.titulo{
+    text-align: center;
+    margin-top: 40%;
+    color: white;
+    margin-bottom: 20px;
+}
+.btn-ligth{
+    margin: 5px;
+    color: white;
+    background-color: #17a3b880;
+    border-color: white;
+    border-width: 4px;
+    width: 30%;
+    height: 40px;
+    margin-bottom: 23%;
+    z-index: 999;
+}
+.form-group{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.form-control{
+    color: white;
+    background-color: #17a2b8;
+    border-color: white;
+    border-width: 4px;
+}
+
+
+.titulo2{
+    text-align: center;
+    margin-top: 27%;
+    color: #17a3b880;
+    margin-bottom: 20px;
+}
+.cadastro .form-control{
+    color: white;
+    background-color: white;
+    border-color: #17a3b880;
+    border-width: 4px;
+}
+.cadastro .btn-ligth{
+    margin: 5px;
+    align-content: center;
+    color: #17a3b880 ;;
+    background-color: white;
+    border-color: #17a3b880 ;
+    border-width: 4px;
+    width: 30%;
+    height: 40px;
+    margin-bottom: 18% !important;
+}
+
+/*versão mobile*/
+@media screen and (max-width: 800px) {
+
+    .form-group{
+        margin: 5px;
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 990px) {
+
+   body{
+       background-color: #17a3b880 !important;
+   }
+    
+}
+
+    

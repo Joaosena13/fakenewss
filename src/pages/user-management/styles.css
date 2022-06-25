@@ -1,0 +1,48 @@
+.titulo {
+    margin-right: 100%;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.cabecalho {
+    background-color: #17a2b8;
+    color: white;
+    padding: 0px 20px;
+}
+.cabecalho a {
+    color: white;
+}
+.cabecalho button {
+    color: white;
+}
+.cabecalho div a {
+    margin-right: 8px;
+}
+.cabecalho img{
+    width: 150px;
+}
+.rodape {
+    background-color: #17a2b8;
+    color: white;
+    text-align: center;
+}
+.rodape p {
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+main {
+    overflow: auto;
+    padding-top: 24px;
+}
+
+html {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {  
+      h1 {
+        font-size: 32px!important;
+      }
+  }
+   
